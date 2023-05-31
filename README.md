@@ -1,2 +1,2 @@
 # RADGan
-Simple conditional GAN for MR to CT image synthesis
+Simple conditional GAN for MRI to CT image synthesis
