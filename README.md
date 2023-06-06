@@ -5,7 +5,7 @@ Simple conditional GAN for MRI to CT image synthesis
 
 ## Training
 
-`python run.py --train_dir your_train_dir --val_dir your_val_dir --num_epochs 100`
+`python train.py --train_dir your_train_dir --val_dir your_val_dir --num_epochs 100`
 
 ## Evaluation
 
