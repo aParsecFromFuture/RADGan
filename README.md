@@ -1,12 +1,19 @@
 # RADGan
-Simple conditional GAN for MRI to CT image synthesis
+Simple conditional GAN for MRI to CT image synthesis.
 
-![](results.png)
+## Dataset
+
+You can get the dataset from the [Drive](https://drive.google.com/file/d/1puShvkkG9smK-azTdW22M61ncIemoziO/view?usp=sharing).
+
+Just put it to project folder and it's done. It's the subset of the original dataset.
 
 ## Training
 
-`python train.py --train_dir your_train_dir --val_dir your_val_dir --num_epochs 100`
+`python train.py`
 
-## Evaluation
+## Results
 
-`python eval.py --test_dir your_test_dir --model_path your_model.pth`
+The model evaluates the random samples from the validation set every n batch. Then it creates a grid image and saves it into "runs/[session]/".
+
+
+![](results.png)
